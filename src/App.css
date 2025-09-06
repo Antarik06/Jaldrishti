@@ -1,0 +1,36 @@
+/* Reset default margins and padding */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.App {
+  font-family: 'Montserrat', 'Poppins', Arial, sans-serif;
+  background-color: #a9caeb;
+  color: #002b5b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  overflow-x: hidden;
+}
+
+.main-content {
+  width: 100%;
+  height: 100%;
+  flex: 1;
+   /* To avoid navbar overlap */
+}
+
+h2 {
+  text-align: center;
+  margin-top: 50px;
+  color: #004e92;
+}
